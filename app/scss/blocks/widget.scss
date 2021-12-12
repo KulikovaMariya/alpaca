@@ -11,7 +11,6 @@
   position: absolute;
   top: 0;
   right: 0;
-  z-index: 2;
   display: flex;
   flex-direction: column;
   background: #18A4E0;
@@ -139,5 +138,6 @@
   &__icon {
     height: 24px;
     width: 24px;
+    color: $icon;
   }
 }
