@@ -24,16 +24,24 @@
   border-radius: 0 0 8px 8px;
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
   flex-shrink: 0;
 }
 
 .user {
-
+  display: flex;
+  margin-right: 16px;
 }
 
 .user__avatar {
+  position: relative;
+  margin-right: 16px;
+}
+
+.avatar {
   height: 68px;
   width: 68px;
+
   object-fit: cover;
   object-position: center center;
   border-radius: 50%;
@@ -41,24 +49,51 @@
   outline-offset: -8px;
 }
 
+.status {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 6px;
+  right: 0;
+  background: #BB6BD9;
+  border: 3px solid #043353;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
 .user__name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.name {
   font: 18px/28px Roboto, Arial, Helvetica, sans-serif;
   font-weight: 700;
   color: #FAF8F0;
 }
 
-.user__caption {
+.caption {
   font: 14px/16px Roboto, Arial, Helvetica, sans-serif;
   font-weight: 400;
   color: #F2994A;
 }
 
-.widget__button {
-
+.button {
+  outline: none;
+  border: 0;
+  cursor: pointer;
 }
 
-.button {
+.widget__button {
+  justify-content: flex-start;
+  background: #043353;
+}
 
+.button__icon {
+  height: 24px;
+  width: 24px;
+  color: #FAF8F0;
 }
 
 .widget__content {
