@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Widget Alpaca</title>
-    <link rel="stylesheet" href="css/main.css?t=1639507734759">
+    <link rel="stylesheet" href="css/main.css?t=1639592713795">
 </head>
 
 <body>
 <div class="container">
-  <div class="widget">
+  <div class="widget widget--form">
     <div class="widget__header">
       <div class="user">
         <div class="user__avatar">
@@ -75,6 +75,21 @@
           </p>
         </li>
       </ul>
+      <form action="#" method="post" class="form widget__form">
+        <label for="email" class="form__label visually-hidden">
+          E-mail
+        </label>
+        <input class="form__input" type="email" name="email"
+               id="email" placeholder="Your email" autocomplete="off">
+        <label for="username" class="form__label visually-hidden">
+          Username
+        </label>
+        <div class="wrapper">
+          <input class="form__input wrapper__input" type="text" name="name"
+                 id="username" placeholder="Your name" autocomplete="off">
+          <input class="form__submit wrapper__submit" type="submit" value="SEND">
+        </div>
+      </form>
     </div>
     <div class="widget__footer">
       <ul class="contacts">
@@ -132,7 +147,7 @@
 
 
     <!-- подключаем js -->
-    <script src="js/main.js?t=1639507734759"></script>
+    <script src="js/main.js?t=1639592713795"></script>
 </body>
 
 </html>
