@@ -5,115 +5,121 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Widget Alpaca</title>
-    <link rel="stylesheet" href="css/main.css?t=1639593211245">
+    <link rel="stylesheet" href="css/main.css?t=1640079348472">
 </head>
 
 <body>
 <div class="container">
   <div class="widget widget--form">
     <div class="widget__header">
-      <div class="user">
-        <div class="user__avatar">
-          <img src="img/alpaca.webp" alt="Avatar" class="avatar">
-          <div class="status"></div>
+      <div class="widget__header-user">
+        <div class="widget__header-avatar-container">
+          <img src="img/alpaca.webp" alt="Avatar" class="widget__header-avatar">
         </div>
-        <div class="user__name">
-          <span class="name">Kriss Lamma</span>
-          <span class="caption">creative of alpaca</span>
+        <div class="widget__header-user-name">
+          <span class="widget__header-name">Kriss Lamma</span>
+          <span class="widget__header-caption">creative of alpaca</span>
         </div>
       </div>
-      <button class="button widget__button">
-        <svg class="button__icon">
+      <button class="widget__button">
+        <svg class="widget__button-icon">
           <use xlink:href="img/svg/sprite.svg#arrow"></use>
         </svg>
       </button>
     </div>
-    <div class="widget__content">
-      <ul class="messages">
-        <li class="message">
-        <div class="message__header">
-          <span class="message__title">Max Raw</span>
-          <span class="message__date">09.05.2020</span>
+    <div class="widget__main">
+      <div class="widget__content">
+        <div class="widget__shadow">
+          <ul class="widget__messages">
+            <li class="widget__message">
+              <div class="widget__message-header">
+                <span class="widget__message-title">Max Raw</span>
+                <span class="widget__message-date">09.05.2020</span>
+              </div>
+              <p class="widget__message-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, natus delectus! Vero est incidunt
+                facere porro obcaecati. Nisi suscipit quam at odio repellat dolores, alias sint exercitationem neque
+                recusandae quasi?
+              </p>
+            </li>
+            <li class="widget__message">
+              <div class="widget__message-header">
+                <span class="widget__message-title">Nick Watman MR. Catrunner</span>
+                <span class="widget__message-date">08.05.2020</span>
+              </div>
+              <p class="widget__message-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, natus delectus! Vero est incidunt
+                facere porro obcaecati. Nisi suscipit quam at odio repellat dolores, alias sint exercitationem neque
+                recusandae quasi?
+              </p>
+            </li>
+            <li class="widget__message">
+              <div class="widget__message-header">
+                <span class="widget__message-title">Max Raw</span>
+                <span class="widget__message-date">09.05.2020</span>
+              </div>
+              <p class="widget__message-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, natus delectus! Vero est incidunt
+                facere porro obcaecati. Nisi suscipit quam at odio repellat dolores, alias sint exercitationem neque
+                recusandae quasi?
+              </p>
+            </li>
+            <li class="widget__message">
+              <div class="widget__message-header">
+                <span class="widget__message-title">Nick Watman MR. Catrunner</span>
+                <span class="widget__message-date">08.05.2020</span>
+              </div>
+              <p class="widget__message-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, natus delectus! Vero est incidunt
+                facere porro obcaecati. Nisi suscipit quam at odio repellat dolores, alias sint exercitationem neque
+                recusandae quasi?
+              </p>
+            </li>
+          </ul>
         </div>
-        <p class="message__text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, natus delectus! Vero est incidunt
-          facere porro obcaecati. Nisi suscipit quam at odio repellat dolores, alias sint exercitationem neque
-          recusandae quasi?
-        </p>
-      </li>
-        <li class="message">
-          <div class="message__header">
-            <span class="message__title">Nick Watman MR. Catrunner</span>
-            <span class="message__date">08.05.2020</span>
+        <form action="#" method="post" class="widget__form">
+          <label for="email" class="widget__form-label visually-hidden">
+            E-mail
+          </label>
+          <input class="widget__form-input" type="email" name="email"
+                 id="email" placeholder="Your email" autocomplete="off">
+          <label for="username" class="widget__form-label visually-hidden">
+            Username
+          </label>
+          <div class="widget__form-wrapper">
+            <input class="widget__form-input widget__form-wrapper-input" type="text" name="name"
+                   id="username" placeholder="Your name" autocomplete="off">
+            <button class="widget__form-submit widget__form-wrapper-submit" type="submit">SEND</button>
           </div>
-          <p class="message__text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, natus delectus! Vero est incidunt
-            facere porro obcaecati. Nisi suscipit quam at odio repellat dolores, alias sint exercitationem neque
-            recusandae quasi?
-          </p>
-        </li>
-        <li class="message">
-          <div class="message__header">
-            <span class="message__title">Max Raw</span>
-            <span class="message__date">09.05.2020</span>
-          </div>
-          <p class="message__text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, natus delectus! Vero est incidunt
-            facere porro obcaecati. Nisi suscipit quam at odio repellat dolores, alias sint exercitationem neque
-            recusandae quasi?
-          </p>
-        </li>
-        <li class="message">
-          <div class="message__header">
-            <span class="message__title">Nick Watman MR. Catrunner</span>
-            <span class="message__date">08.05.2020</span>
-          </div>
-          <p class="message__text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, natus delectus! Vero est incidunt
-            facere porro obcaecati. Nisi suscipit quam at odio repellat dolores, alias sint exercitationem neque
-            recusandae quasi?
-          </p>
-        </li>
-      </ul>
-      <form action="#" method="post" class="form widget__form">
-        <label for="email" class="form__label visually-hidden">
-          E-mail
-        </label>
-        <input class="form__input" type="email" name="email"
-               id="email" placeholder="Your email" autocomplete="off">
-        <label for="username" class="form__label visually-hidden">
-          Username
-        </label>
-        <div class="wrapper">
-          <input class="form__input wrapper__input" type="text" name="name"
-                 id="username" placeholder="Your name" autocomplete="off">
-          <input class="form__submit wrapper__submit" type="submit" value="SEND">
-        </div>
-      </form>
+        </form>
+      </div>
+
+
     </div>
+
     <div class="widget__footer">
-      <ul class="contacts">
-        <li class="contacts__item">
-          <a href="https://www.instagram.com/" class="link">
-            <svg class="link__icon">
+      <ul class="widget__footer-contacts">
+        <li class="widget__footer-contact">
+          <a href="https://www.instagram.com/" class="widget__footer-link">
+            <svg class="widget__footer-icon">
               <use xlink:href="img/svg/sprite.svg#instagram"></use>
             </svg>
           </a>
         </li>
-        <li class="contacts__item">
-          <a href="https://twitter.com/" class="link">
-            <svg class="link__icon">
+        <li class="widget__footer-contact">
+          <a href="https://twitter.com/" class="widget__footer-link">
+            <svg class="widget__footer-icon">
               <use xlink:href="img/svg/sprite.svg#twitter"></use>
             </svg>
           </a>
         </li>
-        <li class="contacts__item">
-        <a href="https://www.facebook.com/" class="link">
-          <svg class="link__icon">
-            <use xlink:href="img/svg/sprite.svg#facebook"></use>
-          </svg>
-        </a>
-      </li>
+        <li class="widget__footer-contact">
+          <a href="https://www.facebook.com/" class="widget__footer-link">
+            <svg class="widget__footer-icon">
+              <use xlink:href="img/svg/sprite.svg#facebook"></use>
+            </svg>
+          </a>
+        </li>
       </ul>
     </div>
   </div>
@@ -147,7 +153,7 @@
 
 
     <!-- подключаем js -->
-    <script src="js/main.js?t=1639593211245"></script>
+    <script src="js/main.js?t=1640079348472"></script>
 </body>
 
 </html>
